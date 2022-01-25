@@ -1,0 +1,267 @@
+* {
+  margin : 0;
+  padding: 0;
+}
+input[type=text] {
+  width: 45%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: sandybrown;
+}
+input [type=range]{
+  color:sandybrown
+}
+
+.slider
+{
+  width: 600%;
+  height: 25px;
+  background: #d3d3d3;
+}
+textarea{
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: sandybrown;
+  height: 150px;
+  font-size: 16px;
+  resize: none;
+
+}
+p {
+  width: 400px;
+  padding: 10px;
+}
+a{
+  padding: 10px;
+  color: sandybrown;
+}
+ul{
+  width : 200px;
+  padding: 10px;
+}
+h3{
+  padding: 10px;
+}
+h4 {
+  color: black;
+  padding: 10px;
+}
+h1{
+  padding: 4px;
+}
+.button {
+  background-color:black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.nav-container{
+  text-align: center;
+}
+.button-Contact {
+  background-color:darkorange; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 22px;
+}
+.Intro{
+  font-size: 16px;
+  color: white;
+  padding: 60px;
+  position: relative;
+  top:500px
+}
+.Header-container{
+  width: 100%;
+  background-image: url('hero-img.png');
+  height: 1000px;
+  vertical-align: top;
+}
+.Services-section{
+  /* height: 800px; */
+  background-color: whitesmoke;
+
+}
+.Service-container {
+padding: 50px;
+margins: 50px;
+color : black;
+font-size: 36px;
+text-align: center;
+background-color: whitesmoke;
+}
+
+.Services{
+  background-color: white;
+  color : black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 515px;
+  height:120px;
+  padding: 25px;
+  display: inline-block;
+  margin: 50px;
+  display: inline-block;
+}
+.AboutMe-section{
+  margin: 50px;
+  position: relative;
+  left:50px;
+
+}
+.Portfolio{
+  display: inline-block;
+
+}
+.Aboutme-Title{
+  font-size: 36px;
+}
+.center{
+  margin: 0 auto;
+}
+.Say-Hello{
+  background-color: sandybrown;
+  height:600px;
+
+}
+.sayhello{
+  font-size: 36;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.Say-Hello-allign{
+  padding: 50px;
+}
+.Footer-subsections{
+  display: inline-block;
+  margin-top:40px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  height: 200px;
+}
+.services-icons{
+  border: none;
+  background-color: sandybrown;
+  border-radius: 60%;
+  width: 40px;
+  height:30px;
+}
+.blogs{
+  height: 650px;
+  width :515px;
+  box-shadow: 0 8px 16px 0 rgba(212, 205, 205, 0.2), 0 6px 20px 0 rgba(201, 198, 198, 0.19);
+  display: inline-block;
+  margin: 10px;
+}
+.b1{
+  font-size: 32px;
+}
+#blogpost{
+  background-color: white;
+}
+.Clients-querries{
+  height:650px;
+  background-color: sandybrown;
+}
+#ClientsQuerry{
+  font-size: 36px;
+  color: white;
+  padding:80px;
+  text-align: center;
+}
+#C1{
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  width: 90%;
+}
+#f1{
+  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.icon{
+  display: inline-block;
+
+}
+#followfooter{
+  position: relative;
+  bottom: 75px;
+}
+.Range{
+  position: relative;
+  bottom: 290px;
+  display: inline-block;
+  left: 20px;
+}
+#I1,#I2,#I3,#I4{
+  position: relative;
+  bottom: 65px;
+}
+
+@media screen and (max-width:768px){
+  html{
+    max-width: 768px;
+  }
+  .Header-container{
+    background-size: 768px 1000px;
+  }
+  .Footer-subsections{
+    width: 768px;
+    height: 100px;
+  }
+  #followfooter{
+    height: 50px;
+  }
+  .blogs{
+
+    width :600px;
+    box-shadow: 0 8px 16px 0 rgba(212, 205, 205, 0.2), 0 6px 20px 0 rgba(201, 198, 198, 0.19);
+    display: inline-block;
+    margin: 10px;
+  }
+  img{
+    height: 350px;
+    width: 600px;
+  }
+  .slider,h4
+  {
+    width: 350px;
+    position:relative;
+    top:300px;
+  }
+  .Range{
+    position: relative;
+    left: 20px;
+  }
+  .Clients-querries,.Say-Hello. #C1{
+    width:768px;
+
+  }
+}
+@media screen and (max-width:438px)
+{
+  .Clients-querries,.Say-Hello. #C1{
+    width:438px;
+
+  }
+}
