@@ -157,7 +157,9 @@ img #portfolio1{
   left:3rem;
   bottom: 1rem;
 }
-
+.ourservices {
+  width :119rem;
+}
 .services{
   background-color: white;
   color : black;
@@ -196,6 +198,7 @@ img #portfolio1{
 
 .form-section{
   padding: 50px;
+  width: 119rem;;
 
 }
 .footer-subsection{
@@ -208,7 +211,7 @@ img #portfolio1{
 .blog-posts{
   width :100%;
 }
-.submain{
+#submain{
   width: 119rem;
 }
 .blogs{
@@ -352,5 +355,8 @@ img #portfolio1{
   }
   #followfooter{
     bottom : 1rem;
+  }
+  #submain, .ourservices, .form-section {
+    width: 47rem;
   }
 }
